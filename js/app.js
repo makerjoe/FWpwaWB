@@ -27,7 +27,7 @@ var app = new Framework7({
   routes: routes,
   // Register service worker
   serviceWorker: {
-    path: '/service-worker.js',
+    path: '/testx/service-worker.js',
   },
 });
 // Login Screen Demo

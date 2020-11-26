@@ -91,13 +91,13 @@ var mainView = app.views.create('.view-main', {
 var ls = app.loginScreen.create({ el: '.login-screen' });
 ls.open(true);
 
-
 $$('.login-screen .button').on('click', function () {
 	app.views.create('.view-main', { url: '/' });
   ls.close();
 });
 
 // Login Screen-Modal DOM events
+
 $$('.login-screen').on('loginscreen:open', function (e, loginScreen) {
 	console.log('Login screen open')
 });
@@ -112,6 +112,7 @@ $$('.login-screen').on('loginscreen:closed', function (e, loginScreen) {
 });
 
 // Login Screen Demo
+
 $$('.login-screen .button').on('click', function () {
   var username = $$('.login-screen [name="username"]').val();
   var password = $$('.login-screen [name="password"]').val();

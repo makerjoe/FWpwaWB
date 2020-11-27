@@ -3,8 +3,8 @@ routes = [
 		// path: '/',
     // componentUrl: './login-screen.html',
 	// },
-	{	
-		path: '/',
+  {	
+	path: '/',
     url: './home.html',
   },
 	{	

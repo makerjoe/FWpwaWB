@@ -79,7 +79,7 @@ var app  = new Framework7({
   routes: routes,
     // Register service worker
   serviceWorker: {
-    path: '/testx/service-worker.js',
+    path: '/FWpwaWB/service-worker.js',
   },
 });
 

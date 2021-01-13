@@ -8,11 +8,11 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox
 self.__WB_MANIFEST = [
   {
     revision: '1',
-    url: 'framework7/css/framework7.bundle.min.css'
+    url: 'framework7/framework7.bundle.min.css'
   },
   {
     revision: '1',
-    url: 'framework7/js/framework7.bundle.min.js'
+    url: 'framework7/framework7.bundle.min.js'
   },
   {
     revision: '1',

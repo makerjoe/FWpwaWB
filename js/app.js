@@ -3,9 +3,9 @@
 var $$ = Dom7;
 console.log('loading app.js')
 // Let's register Template7 helper so we can pass json string in links
-Template7.registerHelper('json_stringify', function (context) {
-    return JSON.stringify(context);
-});
+// Template7.registerHelper('json_stringify', function (context) {
+//     return JSON.stringify(context);
+// });
 
 
 // Framework7 App main instance

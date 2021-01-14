@@ -3,12 +3,11 @@ routes = [
 		// path: '/',
     // componentUrl: './login-screen.html',
 	// },
-  // {	
-	// path: '/',
-  //   url: './home.html',
-  // },
-  // 
   {	
+	path: '/',
+    url: './home.html',
+  },
+	{	
 		path: '/dbadm',
     componentUrl: './pages/dbadm.html',
   },

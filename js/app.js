@@ -89,8 +89,8 @@ var mainView = app.views.create('.view-main', {
   url: '/'
 });
 
-var ls = app.loginScreen.create({ el: '.login-screen' });
-ls.open(true);
+// var ls = app.loginScreen.create({ el: '.login-screen' });
+// ls.open(true);
 
 $$('.login-screen .button').on('click', function () {
   app.views.create('.view-main', { url: '/' });
